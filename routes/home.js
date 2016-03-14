@@ -1,10 +1,10 @@
 var Controller	=	require("../controller");
 module.exports	=	[{
-	method: 'GET',
 	path: '/',
+	method: 'GET',
 	handler: Controller.IndexController.getHome
 }, {
-	method: 'POST',
 	path: '/',
+	method: 'POST',
 	handler: Controller.IndexController.postHome
 }];
